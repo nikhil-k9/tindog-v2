@@ -1,0 +1,165 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.navbar {
+  position: fixed;
+  top:0;
+  padding-bottom: 2rem;
+  background-color: black;
+}
+.main-theme{
+  padding:10% 15%;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 3.5rem;
+  font-size: 3rem;
+}
+.heading-sec{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Montserrat-black";
+  font-size: 1.5rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.container-fluid {
+  padding: 3% 0%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.download-bt {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 21%;
+}
+
+#features {
+  position: relative;
+}
+
+.features-tin {
+  padding: 10rem 10rem;
+  text-align: center;
+}
+.class-div{
+  z-index: 0
+}
+
+.feature-pic {
+  color: #000000;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-pic:hover {
+  color: #2C3639;
+}
+
+.ft {
+  margin: 0.5rem 3.5rem;
+}
+
+#testimonials {
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+  {
+  filter: invert(0%);
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.price-div {
+  padding: 2% 0;
+}
+
+@media (max-width:992px) {
+  .title-image {
+    position: static;
+    padding: 5% 0;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#cta {
+  text-align: center;
+  padding: 7% 15%;
+  font-size: 3.5rem;
+  font-family: "Montserrat-black";
+
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+
+}
+
+.foot-img {
+  padding: 10px;
+}
+.colored-section{
+  background-color: #000000;
+  color:white;
+}
+.white-section{
+  background-color: white;
+  color:black;
+}
